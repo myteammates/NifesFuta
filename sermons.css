@@ -1,0 +1,417 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    position: relative;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Components */
+
+.container {
+    width: 85%;
+    max-width: 100rem;
+    margin: auto;
+}
+
+header {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    height: 74px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    margin: 0 28px;
+    max-width: 100%;
+}
+header .div1 .btn {
+    background-color: white;
+    padding: 10px;
+    border-color: white;
+    border-style: solid;
+    font-size: medium;
+    transition: border-top-color 0.2s, border-bottom-color 0.2s;
+}
+
+header .div1 .btn:hover{
+    border-top-color: #1D0E6A;
+    border-bottom-color: #1D0E6A;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+header .div1 .anth_btn{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 29px;
+    gap: 10px;
+    width: 86px;
+    height: 45px;
+    background: #1D0E6A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+}
+#section1{
+    width: 100%;
+    height: 95vh;
+    background-image: url(sermonfirst.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+#section1 .div1{
+    position: relative;
+    line-height: 60px;
+    height: inherit;    
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: honeydew;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.7em;
+}
+#section1 .div1 .p1{
+    font-size: 27px;
+}
+#section1 .div1 .p2{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+}
+#section1 .div1 .p3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+} 
+#section1 .div1 button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+}
+#section1 .div2{
+    background-color: rgb(83, 83, 83);
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#section1 .div2 button{
+    padding: 15px 25px;
+    border-radius: 15px;
+    z-index: 1;
+    border-style: solid;
+    background: #e8e8e800;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    font-family: inherit;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+}
+#section1 .div2 button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #ffffff;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+}
+#section1 .div2 button:hover {
+    color: #212121;
+}
+   
+#section1 .div2 button:hover::before {
+    width: 100%;
+}
+#section1 .div3 .div3_1{
+    margin-top: 70px;
+    line-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#section1 .div3 .div3_1 h1{
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+#section1 .div3 .div3_1 p{
+    font-family: 'Crimson Text';
+    font-size: 22px;
+    font-weight: 400;
+    color: #707176;
+}
+#section1 .div3 .div3_1 input{
+    border: none;
+    outline: none;
+    font-family: Verdana;
+    margin-top: 100px;
+    padding-right: 1000px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border-radius: 15px;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(173, 173, 173, 0.3);
+    transition: 300ms ease-in-out;
+}
+  
+#section1 .div3 .div3_1 input:focus{
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #c0c0c0,
+               -13px -13px 100px #ffffff;
+}
+.src-btn{
+    margin-left: -74px;
+    box-shadow: inset 2px 5px 10px rgba(173, 173, 173, 0.3);
+    background-color: #ccc;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0;
+    padding-bottom: 0.84em;
+    padding-top: 1.1em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: background-color 0.2s;
+}
+.src-btn:hover{
+    background-color: white;
+}
+main{
+    margin-top: 700px;
+}
+main section{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main section .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.sermons{
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+.sermons .items{
+    margin-top: 20px;
+}
+.sermons .items button{
+    padding: 10px;
+    margin-right: 18px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+.sermons .items button:hover{
+    background-color: #c3c3c3ac;
+}
+.sermons .items button img{
+    width: 20px;
+}
+.sermons .items .ana{
+    width: 335px;
+    margin-top: 15px;
+    height: 1px;
+    background: #56565658;
+    border-radius: 26px;
+}
+.sermons h1{
+    margin-top: 40px;
+    color: #1d01acc7;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: color 0.2s;
+}
+.sermons h1:hover{
+    color: #6a6a6abc;
+}
+main footer {
+    background-color: #1d0e6a;
+    color: whitesmoke;
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    padding-top: 70px;
+    margin-top: -90px;
+}
+main footer .div1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main footer .div1 .div1-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 107px;
+    /* position: absolute; */
+    width: 470px;
+    height: 272px;
+}
+main footer .div1 .div1-1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22px;
+    width: 91px;
+    height: 226px;
+    font-family: "Roboto";
+}
+main footer .div1 .div1-2 h3 {
+    width: 213px;
+    height: 64px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+main footer .div1 .div1-2 p {
+    width: 299px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #e7e7e7;
+    margin-bottom: 20px;
+}
+main footer .div1 .div1-2 .diva input {
+    background-color: #1d0e6a;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 9px;
+    color: white;
+}
+main footer .div1 .div1-2 .diva input::placeholder {
+    color: #c7c7c7;
+}
+main footer .div1 .div1-2 .diva input:focus {
+    border: none;
+}
+main footer .div1 .div1-2 .diva button {
+    /* width: 126px;
+      height: 48px; */
+    padding: 14px 14px;
+    margin-left: -20px;
+    background: #ffffff;
+    border-radius: 12px;
+}
+main footer .div2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 110px;
+    background: #20202d;
+}
+main footer .div2 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main footer .div2 .div2-1 p {
+    width: 258px;
+    height: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #f6f6f6;
+}
+main footer .div2 .sl-div {
+    /* position: absolute; */
+    left: 700px;
+}
+main footer .div2 .sl-div img {
+    width: 100px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+main footer .div2 .last-div {
+    /* position: absolute; left: 0;
+      bottom: 0px;*/
+    left: 1200px;
+}
+main footer .div2 .last-div svg {
+    width: 168px;
+    height: 36px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+} 
