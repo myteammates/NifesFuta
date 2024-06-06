@@ -9,6 +9,7 @@ body{
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Libre Baskerville';
 }
 
 /* Components */
@@ -293,6 +294,27 @@ main section .grid{
 }
 .sermons h1:hover{
     color: #6a6a6abc;
+}
+.grid .navi_btn{
+    position: relative;
+    top: 200px;
+    left: 630px;
+}
+.navi_btn button{
+    background-color: white;
+    padding: 10px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-color: white;
+    border-style: solid;
+    font-size: medium;
+    transition: border-top-color 0.2s, border-bottom-color 0.2s;
+}
+.navi_btn button:hover{
+    border-top-color: #1D0E6A;
+    border-bottom-color: #1D0E6A;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
 }
 main footer {
     background-color: #1d0e6a;
